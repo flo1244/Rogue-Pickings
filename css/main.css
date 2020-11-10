@@ -1,0 +1,413 @@
+body {
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 30px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 12px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    padding: 0 30px;
+}
+
+header {
+	height: 110px;
+	border-bottom: 3px solid #77a466;
+	margin: 0 auto;
+}
+
+header h1 {
+	float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+header h1 span {
+	color: #77a466;
+}
+
+header nav {
+	float: right;
+	padding: 46px 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	padding: 0 10px;
+	display: inline;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+.top-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+
+.main-image {
+	height: auto;
+	float: left;
+}
+.main-image img {
+	border-bottom: 3px solid #77a466;
+}
+
+.main-title {
+	height: auto;
+	float: left;
+}
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+
+.section-one h4 {
+	padding: 10px 0;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+
+.section-two h4,
+.section-three h4 {
+	padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.address {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+}
+footer span {
+	font-family: 'Galada', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
+
+
+/****** MENU MAIN SECTION ******/
+
+top-section-menu,
+.bottom-section-menu {
+    margin: 0 auto;
+    clear: both;
+}
+
+.menu-image {
+    height: auto;
+    float: left;
+  }
+
+.menu-image img {
+    border-bottom: 3px solid #77a466;
+    height:400px;
+    width: 1200px;
+
+  }
+
+
+.menu-title {
+    height: auto;
+    float: left;
+}
+.menu-title h3 {
+    text-align: left;
+    padding: 6px 0;
+    color: #77a466;
+}
+.entrees  {
+    padding: 10px 10;
+    padding-left: 170px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.section-one-drinks,
+.section-two-sides,
+.section-three-dessert {
+    width: 399px;
+    height: auto;
+    float: left;
+    border-top: 1px solid #eee;
+}
+
+.section-one-drinks h4 {
+    padding: 10px 0;
+}
+
+.section-two-sides {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.section-two-sides h4,
+.section-three-dessert h4 {
+    padding: 10px 30px;
+}
+
+.drinks {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.sides {
+    color:#333;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.dessert {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/****** LOCATION SECTION ******/
+
+
+.healthy-food img {
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.chef-cook img {
+    height: 300px;
+    width: 300px;
+
+}
+
+.heart-plate img {
+    height:250px;
+    width: 250px;
+
+}
+
+.top-section-location {
+  margin: 0 auto;
+  clear: both;
+  text-align: center;
+
+}
+
+.location-california,
+.location-atlanta,
+.location-new-york {
+  width: 399px;
+  height: auto;
+  float: left;
+  padding-bottom: 50px;
+
+}
+
+.location-california {
+  padding-top: 50px;
+}
+
+.map {
+  text-align: center;
+}
+
+/****** GALLERY ******/
+
+div.gallery {
+  margin: 29px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.gallery-header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+div.farm-logo {
+  text-align: center;
+
+}
+
+/****** CONTACT ******/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container-c {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/****** REVIEWS ******/
+
+
+
+.reviews-page {
+  padding-left: 240px;
+  padding-top:240px;
+  padding-bottom: 300px;
+
+}
+
+
+/* Float four columns side by side */
+
+.column-one {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+}
+
+.row-one {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row-one:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  padding: 16px;
+  text-align: center;
+  background-color: #77a466;
+  color: white;
+}
+
+.fa {font-size:50px;}
